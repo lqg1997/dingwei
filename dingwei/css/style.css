@@ -1,0 +1,165 @@
+.ditu{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+.container{
+    width:100%;
+    height:50%;
+    position:absolute;
+}
+.info-bg{
+    background: url(../images/bg@2x.png) no-repeat ;
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:relative;
+    top:4.9rem;
+}
+.info-bg  .bgimg{
+    /*position: relative;*/
+    /*top: 0.5rem;*/
+}
+.info-bg .info-position{
+    position: absolute;
+    top: -0.5rem;
+    width: 8rem;
+}
+.info-bg .portrait{
+    width: 1.5rem;
+    margin: 10px auto 0px;
+}
+.info-bg .portrait img{
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+.info-bg p{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #C5C4C4;
+    margin: 2rem 0 0 0;
+    font-family: PingFangSC-Regular;
+}
+.info-bg span{
+    margin-left:10px;
+}
+.info{
+    width: 7rem;
+    margin: 0.5rem auto 0px;
+    box-shadow: 0px 0px 10px 0px #E8E8E8;
+    padding-bottom: 10px;
+    position: relative;
+}
+.info p{
+    text-align: left;
+    margin:0;
+
+}
+.info .info-t{
+   padding: 10px 0 0 15px;
+    font-family: PingFangSC-Semibold;
+}
+.info h3{
+    font-size: 18px;
+    color: #EE5A55;
+    padding:0 0.3rem;
+    font-family: PingFangSC-Medium;
+}
+.info .info-f{
+    font-size: 14px;
+    color: #545454;
+    padding-left: 0.3rem;
+    font-family: PingFangSC-Regular;
+    width:6.3rem;
+}
+.submit{
+    /*position: absolute;*/
+    /*top: 5.88rem;*/
+    /*z-index: 2;*/
+    width: 8rem;
+    margin: -0.4rem auto 0;
+    background: url(../images/btn_signin@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 8rem;
+    height: 2.5rem;
+}
+.signed{
+    /*position: absolute;*/
+    /*top: 5.88rem;*/
+    /*z-index: 2;*/
+    width: 8rem;
+    margin: -0.4rem auto 0;
+    background: url(../images/btn_signed@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 8rem;
+    height: 2.5rem;
+    display: none;
+}
+.gift{
+    width: 8rem;
+    margin: -0.4rem auto 0;
+    background: url(../images/btn_unreceived@3x.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 8rem;
+    height: 2.5rem;
+    display: none;
+}
+.btnimg{
+     border: 0;
+    background: url(../images/ljqd.png) no-repeat;
+    width: 4rem;
+    height: 1.5rem;
+    background-size: 100% 100%;
+    outline: none;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+.footer{
+    width: 8rem;
+    position: relative;
+    
+}
+.tabar{
+    width: 0.95rem;
+    text-align: center;
+    border-bottom: 2px solid #EE5A55;
+   position: absolute;
+   left: 50%;
+   margin-left: -0.475rem;
+   top: -0.03rem;
+}
+.tabar .ss{
+    width:26px;
+    margin-left: 10px;
+}
+.tabar p{
+    color:#EE5A55;
+    text-align: center;
+}
+
+/*
+弹出框
+*/
+.swal-button:active{
+    background-color: red;
+}
+.swal-button:active {
+    background-color: #F84F54;
+}
+.swal-footer{
+    text-align: center;
+}
+.swal-button {
+    background-color: #F84F54;
+    padding: 15px 88px;
+
+}
+.staffId{
+    font-size: 20px;
+    text-align: center;
+}
